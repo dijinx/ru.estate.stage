@@ -34,11 +34,11 @@ public class userRegistration extends baseConfiguration {
         //ввести фамилию
         enterUserSurname(userSurname);
         //ввести мейл
-        enterUserEmail(userMail);
+        enterUserEmail(userMailForRegistration);
         //ввести пароль
-        enterUserPassword(userPassword);
+        enterUserPassword(userPasswordForRegistration);
         //ввести подтверждение пароля
-        enterUserPasswordConfirm(userPassword);
+        enterUserPasswordConfirm(userPasswordForRegistration);
         //нажать кнопку зарегистрироваться
         pressButtonRegistration();
         // пауза сек

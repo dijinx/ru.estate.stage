@@ -12,9 +12,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class baseConfiguration {
 
-    public String userMail = "15TEST@gmail.com";
-    public String userPassword = "mavrodi";
-    public String userWrongPassword = "1001001";
+    public String userMailForRegistration = "15TEST@gmail.com";
+    public String userPasswordForRegistration = "mavrodi";
+    public String userWrongPasswordForRegistration = "1001001";
     public String userInn = "7707083893";
     public String userKpp = "773601001";
     public String userBik = "123456789";
