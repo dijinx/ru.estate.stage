@@ -13,10 +13,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class userRegistration extends baseConfiguration {
     @Epic("TESTING FOR https://stage.estate.mts.ru/ tasks")
-    @Feature(value = "Проверка успешной авторизации")
+    @Feature(value = "Проверка успешной регистрации пользователя")
     @Severity(SeverityLevel.BLOCKER)
-    @Description("Пользователь успешно авторизуется")
-    @Story(value = "История Проверка успешной авторизации")
+    @Description("Пользователь успешно регистрируется")
+    @Story(value = "История Проверка успешной регистрации пользователя")
 
     @Test
     //Проверка успешной авторизации c отображением шагов теста в аллюр
@@ -42,7 +42,7 @@ public class userRegistration extends baseConfiguration {
         //нажать кнопку зарегистрироваться
         pressButtonRegistration();
         // пауза сек
-        Thread.sleep(3000);
+        Thread.sleep(4000);
         //проверка видимости элемента иконка профиля, статус виден
         authorizedUserUniqueElementIsDisplayed();
     }
