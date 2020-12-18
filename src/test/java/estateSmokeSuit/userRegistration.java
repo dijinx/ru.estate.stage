@@ -20,6 +20,7 @@ public class userRegistration extends baseConfiguration {
 
     @Test
     //Проверка успешной авторизации c отображением шагов теста в аллюр
+
     public void Registration() throws InterruptedException {
         //зайти на сайт
         getUrl(SITE_URL);
