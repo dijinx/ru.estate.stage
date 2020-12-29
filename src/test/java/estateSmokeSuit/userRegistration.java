@@ -19,7 +19,7 @@ public class userRegistration extends baseConfiguration {
     @Story(value = "История Проверка успешной регистрации пользователя")
 
     @Test
-    //Проверка успешной авторизации c отображением шагов в аллюр 1
+    //Проверка успешной авторизации c отображением шагов в аллюр
 
     public void Registration() throws InterruptedException {
         //зайти на сайт
